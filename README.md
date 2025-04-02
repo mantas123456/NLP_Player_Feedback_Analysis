@@ -17,16 +17,6 @@ This project processes player feedback from an iGaming platform using Natural La
 - ✅ Cleaned output saved to `processed_feedback.csv`
 
 ---
-
-## 📥 Sample Input (from `data/feedback.csv`)
-
-```csv
-id,feedback
-1,"The app crashed every time I tried placing a bet on football."
-2,"Customer support was slow and unhelpful."
-...
-20,"Bonuses are inconsistent. Sometimes I get them, sometimes I don’t."
-
 ---
 
 ## 📝 Notebook Version
@@ -42,4 +32,16 @@ The notebook contains:
 - Inline charts for hiring or demo purposes
 
 ---
+
+## 📥 Sample Input (from `data/feedback.csv`)
+
+```csv
+id,feedback
+1,"The app crashed every time I tried placing a bet on football."
+2,"Customer support was slow and unhelpful."
+...
+20,"Bonuses are inconsistent. Sometimes I get them, sometimes I don’t."
+
+---
+
 
