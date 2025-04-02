@@ -1,0 +1,6 @@
+id,original_feedback,cleaned_tokens,named_entities
+1,The app crashed every time I tried placing a bet on football.,app crash time try place bet football,
+2,Customer support was slow and unhelpful.,customer support slow unhelpful,
+3,"I loved the bonuses, great experience overall!",love bonus great experience overall,
+4,Live chat was helpful but payouts were delayed by 3 days.,live chat helpful payout delay day,3 days (DATE)
+5,I couldn’t log in during the tournament weekend.,log tournament weekend,
