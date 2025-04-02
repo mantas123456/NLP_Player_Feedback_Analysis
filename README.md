@@ -45,3 +45,22 @@ id,feedback
 ---
 
 
+---
+
+## 📦 Download the Project
+
+You can download the full project as a ZIP from the GitHub Releases page:
+
+➡️ [Download latest release](https://github.com/mantas123456/NLP_Player_Feedback_Analysis/releases)
+
+Includes:
+- Jupyter Notebook (`.ipynb`)
+- Python script (`main.py`)
+- Sample feedback dataset (`feedback.csv`)
+- Cleaned output with sentiment & NER
+- Charts and visualizations (`.png`)
+- README file with project overview
+
+## 📘 Version History
+
+- **v1.0** – Initial release with NLP pipeline, sentiment analysis, and visualizations
