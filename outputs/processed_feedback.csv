@@ -4,3 +4,18 @@ id,original_feedback,cleaned_tokens,named_entities,sentiment_score,sentiment_lab
 3,"I loved the bonuses, great experience overall!",love bonus great experience overall,,0.5,positive
 4,Live chat was helpful but payouts were delayed by 3 days.,live chat helpful payout delay day,3 days (DATE),0.136,positive
 5,I couldn’t log in during the tournament weekend.,log tournament weekend,,0.0,neutral
+6,The slots were fun but I lost connection twice last night.,slot fun lose connection twice night,last night (TIME),0.15,positive
+7,Withdrawals are quick and I received my money the next day!,withdrawal quick receive money day,the next day (DATE),0.167,positive
+8,The game froze in the middle of a bonus round — very frustrating.,game freeze middle bonus round frustrating,,-0.28,negative
+9,Best betting experience I've had so far. Keep it up!,well bet experience far,,0.562,positive
+10,"No promotions available this week, very disappointing.",promotion available week disappointing,this week (DATE),-0.19,negative
+11,"Casino interface is smooth, I like the new design.",casino interface smooth like new design,,0.268,positive
+12,I contacted support about a payment issue and they resolved it fast.,contact support payment issue resolve fast,,0.2,positive
+13,I encountered several bugs while playing blackjack on mobile.,encounter bug play blackjack mobile,,0.0,neutral
+14,The sports odds are decent but not as good as other platforms.,sport odd decent good platform,,0.247,positive
+15,I won €500 but it took 4 days to withdraw it.,win take day withdraw,500 (MONEY); 4 days (DATE),0.0,neutral
+16,Please fix the loading times — it’s way too slow!,fix loading time way slow,,-0.375,negative
+17,The new poker room is fantastic. I love the layout.,new poker room fantastic love layout,,0.345,positive
+18,I was banned for no reason and support didn’t explain why.,ban reason support explain,,0.0,neutral
+19,"Betting history is easy to track, very helpful dashboard.",bet history easy track helpful dashboard,,0.317,positive
+20,"Bonuses are inconsistent. Sometimes I get them, sometimes I don’t.",bonus inconsistent,,0.0,neutral

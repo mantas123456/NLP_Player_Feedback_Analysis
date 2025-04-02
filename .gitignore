@@ -26,3 +26,5 @@ outputs/*.png
 
 # Optional: release archives
 *.zip
+
+.spyproject/
