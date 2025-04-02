@@ -1,0 +1,28 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environment files
+*.env
+.env/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Spyder settings
+.spyproject/
+
+# VSCode settings
+.vscode/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Data and output artifacts
+outputs/*.csv
+outputs/*.png
+
+# Optional: release archives
+*.zip
