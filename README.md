@@ -26,3 +26,20 @@ id,feedback
 2,"Customer support was slow and unhelpful."
 ...
 20,"Bonuses are inconsistent. Sometimes I get them, sometimes I don’t."
+
+---
+
+## 📝 Notebook Version
+
+A complete, interactive Jupyter Notebook is available:
+
+📂 [NLP_Feedback_Analysis.ipynb](NLP_Feedback_Analysis.ipynb)
+
+The notebook contains:
+- Feedback processing
+- Sentiment and entity analysis
+- Token cleaning and visualization
+- Inline charts for hiring or demo purposes
+
+---
+
