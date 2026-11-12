@@ -1,21 +1,21 @@
-id,original_feedback,cleaned_tokens,named_entities,sentiment_score,sentiment_label
-1,The app crashed every time I tried placing a bet on football.,app crash time try place bet football,,0.0,neutral
-2,Customer support was slow and unhelpful.,customer support slow unhelpful,,-0.3,negative
-3,"I loved the bonuses, great experience overall!",love bonus great experience overall,,0.5,positive
-4,Live chat was helpful but payouts were delayed by 3 days.,live chat helpful payout delay day,3 days (DATE),0.136,positive
-5,I couldn’t log in during the tournament weekend.,log tournament weekend,,0.0,neutral
-6,The slots were fun but I lost connection twice last night.,slot fun lose connection twice night,last night (TIME),0.15,positive
-7,Withdrawals are quick and I received my money the next day!,withdrawal quick receive money day,the next day (DATE),0.167,positive
-8,The game froze in the middle of a bonus round — very frustrating.,game freeze middle bonus round frustrating,,-0.28,negative
-9,Best betting experience I've had so far. Keep it up!,well bet experience far,,0.562,positive
-10,"No promotions available this week, very disappointing.",promotion available week disappointing,this week (DATE),-0.19,negative
-11,"Casino interface is smooth, I like the new design.",casino interface smooth like new design,,0.268,positive
-12,I contacted support about a payment issue and they resolved it fast.,contact support payment issue resolve fast,,0.2,positive
-13,I encountered several bugs while playing blackjack on mobile.,encounter bug play blackjack mobile,,0.0,neutral
-14,The sports odds are decent but not as good as other platforms.,sport odd decent good platform,,0.247,positive
-15,I won €500 but it took 4 days to withdraw it.,win take day withdraw,500 (MONEY); 4 days (DATE),0.0,neutral
-16,Please fix the loading times — it’s way too slow!,fix loading time way slow,,-0.375,negative
-17,The new poker room is fantastic. I love the layout.,new poker room fantastic love layout,,0.345,positive
-18,I was banned for no reason and support didn’t explain why.,ban reason support explain,,0.0,neutral
-19,"Betting history is easy to track, very helpful dashboard.",bet history easy track helpful dashboard,,0.317,positive
-20,"Bonuses are inconsistent. Sometimes I get them, sometimes I don’t.",bonus inconsistent,,0.0,neutral
+id,feedback,label,cleaned_tokens,named_entities,topics,textblob_score,textblob_label,vader_score,vader_label
+1,The app crashed every time I tried placing a bet on football.,negative,app crash time try place bet football,,Stability,0.0,neutral,0.0,neutral
+2,Customer support was slow and unhelpful.,negative,customer support slow unhelpful,,Support,-0.3,negative,0.402,positive
+3,"I loved the bonuses, great experience overall!",positive,love bonus great experience overall,,Bonuses,0.5,positive,0.917,positive
+4,Live chat was helpful but payouts were delayed by 3 days.,negative,live chat helpful payout delay day,3 days (DATE),Payments; Support,0.136,positive,-0.115,negative
+5,I couldn’t log in during the tournament weekend.,negative,log tournament weekend,,Stability,0.0,neutral,0.0,neutral
+6,The slots were fun but I lost connection twice last night.,negative,slot fun lose connection twice night,last night (TIME),Stability,0.15,positive,-0.202,negative
+7,Withdrawals are quick and I received my money the next day!,positive,withdrawal quick receive money day,the next day (DATE),Payments,0.167,positive,0.0,neutral
+8,The game froze in the middle of a bonus round — very frustrating.,negative,game freeze middle bonus round frustrating,,Stability; Bonuses,-0.28,negative,0.079,neutral
+9,Best betting experience I've had so far. Keep it up!,positive,well bet experience far,,Other,0.562,positive,0.67,positive
+10,"No promotions available this week, very disappointing.",negative,promotion available week disappointing,this week (DATE),Bonuses,-0.19,negative,-0.69,negative
+11,"Casino interface is smooth, I like the new design.",positive,casino interface smooth like new design,,Product & UX,0.268,positive,0.361,positive
+12,I contacted support about a payment issue and they resolved it fast.,positive,contact support payment issue resolve fast,,Payments; Support,0.2,positive,0.527,positive
+13,I encountered several bugs while playing blackjack on mobile.,negative,encounter bug play blackjack mobile,,Stability,0.0,neutral,0.202,positive
+14,The sports odds are decent but not as good as other platforms.,negative,sport odd decent good platform,,Product & UX,0.247,positive,-0.478,negative
+15,I won €500 but it took 4 days to withdraw it.,negative,win take day withdraw,500 (MONEY); 4 days (DATE),Payments,0.0,neutral,0.329,positive
+16,Please fix the loading times — it’s way too slow!,negative,fix loading time way slow,,Stability,-0.375,negative,0.38,positive
+17,The new poker room is fantastic. I love the layout.,positive,new poker room fantastic love layout,,Product & UX,0.345,positive,0.832,positive
+18,I was banned for no reason and support didn’t explain why.,negative,ban reason support explain,,Support,0.0,neutral,-0.361,negative
+19,"Betting history is easy to track, very helpful dashboard.",positive,bet history easy track helpful dashboard,,Product & UX,0.317,positive,0.718,positive
+20,"Bonuses are inconsistent. Sometimes I get them, sometimes I don’t.",negative,bonus inconsistent,,Bonuses,0.0,neutral,0.557,positive
