@@ -76,5 +76,10 @@ tests/
   comparison, evaluation against hand labels, tests and CI. Replaced the script with a package.
 - **v1.0** (2025). spaCy and TextBlob pipeline with charts.
 
+## How this was built
+
+I designed the analysis and checked the results. I used Claude Code as
+a coding assistant.
+
 ---
 Mantas Valantinavičius · [github.com/mantas123456](https://github.com/mantas123456)
